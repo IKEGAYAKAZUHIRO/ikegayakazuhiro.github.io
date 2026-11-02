@@ -1,45 +1,89 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ja">
 <head>
-    <title>Welcome to Ikegaya's Domain</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #1e1e1e;
-            color: #ffffff;
-            font-family: 'Roboto Mono', Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            font-size: 1.2em;
-        }
-        h1 {
-            font-size: 2em;
-            font-weight: 700;
-        }
-        p {
-            font-size: 1.2em;
-        }
-        a {
-            color: #0078d7;
-        }
-        
-        @media (max-width: 600px) {
-            body {
-                padding: 10px;
-                font-size: 1em;
-            }
-            h1 {
-                font-size: 1.7em;
-            }
-            p {
-                font-size: 1em;
-            }
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>池谷 和浩 | ikegaya.tokyo</title>
+<meta name="description" content="フリーライター 池谷 和浩（いけがや・かずひろ）。建築界隈を中心に取材しています。">
+<link rel="canonical" href="https://www.ikegaya.tokyo/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="池谷 和浩 | ikegaya.tokyo">
+<meta property="og:description" content="フリーライター 池谷 和浩（いけがや・かずひろ）。建築界隈を中心に取材しています。">
+<meta property="og:url" content="https://www.ikegaya.tokyo/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="me" href="https://x.com/ikegayakazuhiro">
+<style>
+/* 名刺の 1 枚。色と字はブログ（blog.ikegaya.tokyo）に合わせる。外部のフォント・JS は読まない */
+:root {
+  color-scheme:light;
+  --fg:#2b2620; --bg:#fbf8f1; --muted:#6f675c; --line:#e4dccb; --link:#0b5cad; --prompt:#2f7a3b;
+  --sans: system-ui, "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+  --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Noto Sans Mono CJK JP", monospace;
+}
+* { box-sizing:border-box; }
+body { margin:0; min-height:100vh; display:flex; flex-direction:column; justify-content:center;
+  color:var(--fg); background:var(--bg); font-family:var(--sans); line-height:1.85; overflow-wrap:anywhere; }
+main { width:100%; max-width:36rem; margin:0 auto; padding:2rem 16px; }
+a { color:var(--link); text-decoration:none; } a:hover { text-decoration:underline; }
+.card { border:1px solid var(--line); border-radius:8px; background:#fff; padding:1.6rem 1.6rem 1.2rem; }
+.head { display:flex; align-items:center; gap:1rem; }
+.logo { width:72px; height:72px; flex:none; border-radius:50%; object-fit:cover; }   /* X と同じアイコンを丸く */
+h1 { margin:0; font-size:1.6rem; line-height:1.3; }
+.kana { display:block; font-size:.8rem; font-weight:normal; color:var(--muted); }
+.role { margin:.2rem 0 0; font-family:var(--mono); font-size:.85rem; color:var(--prompt); }
+.bio { margin:1.2rem 0; font-size:.95rem; }
+.links { list-style:none; padding:0; margin:0; border-top:1px solid var(--line); }
+.links li { border-bottom:1px solid var(--line); }
+.links a { display:flex; justify-content:space-between; gap:1rem; padding:.7rem .2rem; color:var(--fg); }
+.links a:hover { text-decoration:none; color:var(--link); }
+.links .label { font-weight:bold; }
+.links .url { font-family:var(--mono); font-size:.8rem; color:var(--muted); }
+.contact { margin:1rem 0 0; font-size:.85rem; color:var(--muted); }
+.contact a { text-decoration:underline; text-underline-offset:.2em; }
+.domain { margin:0 0 .8rem; font-family:var(--mono); font-size:.9rem; color:var(--muted); }
+.domain .prompt { font-weight:bold; font-size:1.1rem; color:var(--prompt); }
+.owner { margin:1.4rem .2rem 0; font-size:.82rem; color:var(--muted); line-height:1.7; }
+.owner p { margin:.4rem 0; }
+.owner b { color:var(--fg); font-family:var(--mono); }
+.owner ul { margin:.4rem 0; padding-left:1.2rem; }
+.owner a { font-family:var(--mono); }
+.owner .copy { margin-top:.8rem; }
+@media (max-width: 480px) {
+  .card { padding:1.2rem 1rem 1rem; }
+  .links a { flex-direction:column; gap:0; }
+}
+</style>
 </head>
 <body>
-    <h1>Welcome to ikegaya.tokyo!</h1>
-    <p>This is a simple web page hosted on GitHub Pages.</p>
-    <p>X(Twitter) account --> <a href="https://x.com/ikegayakazuhiro" target="_blank">https://x.com/ikegayakazuhiro</a></p>
+<main>
+<p class="domain"><span class="prompt">ikegaya.tokyo</span> は 池谷 和浩 のドメインです</p>
+<section class="card">
+<div class="head">
+<img class="logo" src="avatar.jpg" alt="池谷 和浩のアイコン（X と同じ）" width="72" height="72">
+<div>
+<h1>池谷 和浩<span class="kana">いけがや・かずひろ</span></h1>
+<p class="role">フリーライター / 建築</p>
+</div>
+</div>
+<p class="bio">1970年北海道函館市五稜郭町生まれ、1歳で中部地方にお引越しした後、92年ノコノコと学部卒（経営）で東京に出てきて就職。専門紙「住宅産業新聞」に記者として勤務後、98年からフリーライターに。建築界隈を中心として取材をしています。関心領域は建築技術、建築訴訟、法制度、大地震による建築被害などなど。趣味はホームラボ制作<br>Prof写真は自分で撮影した旭山動物園のコウテイペンギンさんです</p>
+<ul class="links">
+<li><a href="https://blog.ikegaya.tokyo/"><span class="label">ブログ</span><span class="url">blog.ikegaya.tokyo</span></a></li>
+<li><a href="https://blog.ikegaya.tokyo/works/"><span class="label">実績の傾向</span><span class="url">blog.ikegaya.tokyo/works</span></a></li>
+<li><a href="https://x.com/ikegayakazuhiro" rel="me"><span class="label">X</span><span class="url">@ikegayakazuhiro</span></a></li>
+</ul>
+<p class="contact">お会いしたことがない方、ご連絡は<a href="https://x.com/ikegayakazuhiro">x.com</a>のDMでどうぞ</p>
+</section>
+<footer class="owner">
+<p>このドメイン <b>ikegaya.tokyo</b> と、その下のサイトは、すべて池谷 和浩 が自分で持ち、運営しています。</p>
+<ul>
+<li><a href="https://www.ikegaya.tokyo/">www.ikegaya.tokyo</a> … このページ（名刺）</li>
+<li><a href="https://blog.ikegaya.tokyo/">blog.ikegaya.tokyo</a> … ブログと実績の一覧</li>
+</ul>
+<p>このほかの名前で ikegaya.tokyo を名乗るサイトやメールは、私のものではありません。</p>
+<p class="copy">© 池谷 和浩（Ikegaya Kazuhiro）</p>
+</footer>
+</main>
 </body>
 </html>
