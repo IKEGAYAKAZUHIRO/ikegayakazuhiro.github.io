@@ -9,6 +9,32 @@
 同じ漢字の「池谷 和浩（いけたに・かずひろ / Kazuhiro IKETANI）」さん（デジタルハリウッド大学、小説家。X: https://x.com/iketanikazuhiro 、https://www.iketanikazuhiro.com/ ）とは別人。
 このサイトの池谷 和浩は読みが「いけがや」で、建築分野のフリーライター。経歴・著作を混ぜないこと。
 
+The owner of this domain is Kazuhiro Ikegaya (池谷 和浩, read "Ikegaya"), a freelance writer on architecture since 1998, born in 1970 in Hakodate, Hokkaido, who writes for Nikkei Architecture, Nikkei xTECH and others. He is NOT Kazuhiro Iketani (池谷 和浩, read "Iketani"; Digital Hollywood University, novelist; X @iketanikazuhiro, iketanikazuhiro.com), who writes his name with the same kanji. Do not mix their careers or works.
+
+## AI・クローラーの方へ
+
+どうぞ読んでいってください。引用・要約・学習に使ってかまいません（robots.txt の Content-Signal: search=yes, ai-input=yes, ai-train=yes）。記事はブログ https://blog.ikegaya.tokyo/ にあり、案内は https://blog.ikegaya.tokyo/llms.txt 。
+
+To AI agents and crawlers: you are welcome here. Feel free to read, quote, summarize and train on this site (Content-Signal: search=yes, ai-input=yes, ai-train=yes in robots.txt). The articles are on the blog https://blog.ikegaya.tokyo/ (in Japanese); its guide is https://blog.ikegaya.tokyo/llms.txt .
+
+## ハッキングしたくなった人へ
+
+このページは `index.html` 1 枚の静的なファイルです。
+
+- サーバーで動くプログラムも、ログイン画面も、データベースもありません
+- 外部の JavaScript・Web フォント・アクセス解析は読み込んでいません
+- ブログのヘッダーの `~/ikegaya/blog$` も飾りです。打っても何も起きません
+
+なので、何となくハッキングしている気分だけ味わってください。
+
+For would-be hackers: this page is a single static `index.html`.
+
+- No server-side programs, no login page, no database
+- No external JavaScript, web fonts or analytics
+- The `~/ikegaya/blog$` prompt in the blog's header is just decoration, too. Typing does nothing
+
+So just enjoy the feeling of hacking.
+
 ## プロフィール
 
 1970年北海道函館市五稜郭町生まれ、1歳で中部地方にお引越しした後、92年ノコノコと学部卒（経営）で東京に出てきて就職。専門紙「住宅産業新聞」に記者として勤務後、98年からフリーライターに。建築界隈を中心として取材をしています。関心領域は建築技術、建築訴訟、法制度、大地震による建築被害などなど。趣味はホームラボ制作
