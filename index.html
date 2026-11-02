@@ -23,7 +23,7 @@
   "@type": "ProfilePage",
   "url": "https://www.ikegaya.tokyo/",
   "inLanguage": "ja",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-03",
   "mainEntity": {
     "@type": "Person",
     "@id": "https://www.ikegaya.tokyo/#person",
@@ -50,9 +50,25 @@
   --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Noto Sans Mono CJK JP", monospace;
 }
 * { box-sizing:border-box; }
-body { margin:0; min-height:100vh; display:flex; flex-direction:column; justify-content:center;
+body { margin:0;
   color:var(--fg); background:var(--bg); font-family:var(--sans); line-height:1.85; overflow-wrap:anywhere; }
-main { width:100%; max-width:36rem; margin:0 auto; padding:2rem 16px; }
+main { width:100%; max-width:36rem; margin:0 auto; padding:.5rem 16px 2rem; }
+/* 頭の帯はブログ（blog.ikegaya.tokyo の assets/style.css の .site-header）と同じ形。www は一つ上の ~/ikegaya で、押せるコマンドは cd blog/（2026-11-03） */
+.site-header { display:flex; align-items:center; gap:1rem;
+  padding:1.2rem 24px .8rem; border-bottom:1px solid var(--line); margin-bottom:1.5rem; }
+.site-header .site { display:inline-flex; flex-wrap:wrap; align-items:center; font-family:var(--mono); font-weight:bold; color:var(--fg); }
+.site-header .home { display:inline-flex; align-items:center; gap:.6rem; color:inherit; }
+.site-header .home a { display:inline-flex; color:inherit; }
+.site-header .prompt a { color:var(--prompt); }
+.site-header .prompt a:hover { text-decoration:underline; }
+.site-header .hlogo { width:56px; height:56px; flex:none; }
+.site-header .tail { display:inline-flex; align-items:stretch; margin-left:.6em; white-space:nowrap; }
+.site-header .cmd { display:inline-block; line-height:1.4; padding:0 .3em; color:var(--bg); background:var(--fg); }
+.site-header .cmd:hover { text-decoration:none; background:var(--prompt); }
+.site-header .cursor { display:inline-block; width:.6em; min-height:1.4em; margin-left:.1em; background:var(--prompt); animation:blink 1.1s steps(1) infinite; }
+@keyframes blink { 50% { opacity:0; } }
+@media (prefers-reduced-motion: reduce) { .site-header .cursor { animation:none; } }
+@media (max-width:600px) { .site-header { padding-inline:1rem; } }
 a { color:var(--link); text-decoration:none; } a:hover { text-decoration:underline; }
 .card { border:1px solid var(--line); border-radius:8px; background:#fff; padding:1.6rem 1.6rem 1.2rem; }
 .head { display:flex; align-items:center; gap:1rem; }
@@ -71,8 +87,6 @@ h1 { margin:0; font-size:1.6rem; line-height:1.3; }
 .owner .namesake a { font-family:inherit; }
 .contact { margin:1rem 0 0; font-size:.85rem; color:var(--muted); }
 .contact a { text-decoration:underline; text-underline-offset:.2em; }
-.domain { margin:0 0 .8rem; font-family:var(--mono); font-size:.9rem; color:var(--muted); }
-.domain .prompt { font-weight:bold; font-size:1.1rem; color:var(--prompt); }
 .owner { margin:1.4rem .2rem 0; font-size:.82rem; color:var(--muted); line-height:1.7; }
 .owner p { margin:.4rem 0; }
 .owner b { color:var(--fg); font-family:var(--mono); }
@@ -86,8 +100,10 @@ h1 { margin:0; font-size:1.6rem; line-height:1.3; }
 </style>
 </head>
 <body>
+<header class="site-header">
+<div class="site"><span class="home"><a href="https://www.ikegaya.tokyo/"><img class="hlogo" src="logo.png" alt="" width="56" height="56"></a><span class="prompt"><a href="https://www.ikegaya.tokyo/">~/ikegaya$</a></span></span><span class="tail"><a class="cmd" href="https://blog.ikegaya.tokyo/">cd blog/</a><span class="cursor" aria-hidden="true"></span></span></div>
+</header>
 <main>
-<p class="domain"><span class="prompt">ikegaya.tokyo</span> は 池谷 和浩 のドメインです</p>
 <section class="card">
 <div class="head">
 <img class="logo" src="avatar.jpg" alt="池谷 和浩のアイコン（X と同じ）" width="72" height="72">
