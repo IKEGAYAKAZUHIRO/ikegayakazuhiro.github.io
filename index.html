@@ -37,12 +37,12 @@
     "knowsAbout": ["建築技術", "建築訴訟", "建築の法制度", "地震による建築被害", "ホームラボ"],
     "url": "https://www.ikegaya.tokyo/",
     "image": "https://www.ikegaya.tokyo/avatar.jpg",
-    "sameAs": ["https://x.com/ikegayakazuhiro", "https://blog.ikegaya.tokyo/", "https://xtech.nikkei.com/authors/25/00243/"]
+    "sameAs": ["https://x.com/ikegayakazuhiro", "https://works.ikegaya.tokyo/", "https://blog.ikegaya.tokyo/about/", "https://xtech.nikkei.com/authors/25/00243/"]
   }
 }
 </script>
 <style>
-/* 名刺の 1 枚。色と字はブログ（blog.ikegaya.tokyo）に合わせる。外部のフォント・JS は読まない */
+/* 名刺の 1 枚。色と字は実績のサイト（works.ikegaya.tokyo。2026-11-03 に blog. から引っ越し）に合わせる。外部のフォント・JS は読まない */
 :root {
   color-scheme:light;
   --fg:#2b2620; --bg:#fbf8f1; --muted:#6f675c; --line:#e4dccb; --link:#0b5cad; --prompt:#2f7a3b;
@@ -53,7 +53,7 @@
 body { margin:0;
   color:var(--fg); background:var(--bg); font-family:var(--sans); line-height:1.85; overflow-wrap:anywhere; }
 main { width:100%; max-width:36rem; margin:0 auto; padding:.5rem 16px 2rem; }
-/* 頭の帯はブログ（blog.ikegaya.tokyo の assets/style.css の .site-header）と同じ形。www は一つ上の ~/ikegaya で、押せるコマンドは cd blog/（2026-11-03） */
+/* 頭の帯は works.ikegaya.tokyo（~/blog の assets/style.css の .site-header）と同じ形。www は一つ上の ~/ikegaya で、押せるコマンドは cd works/（2026-11-03。cd blog/ から） */
 .site-header { display:flex; align-items:center; gap:1rem;
   padding:1.2rem 24px .8rem; border-bottom:1px solid var(--line); margin-bottom:1.5rem; }
 .site-header .site { display:inline-flex; flex-wrap:wrap; align-items:center; font-family:var(--mono); font-weight:bold; color:var(--fg); }
@@ -101,7 +101,7 @@ h1 { margin:0; font-size:1.6rem; line-height:1.3; }
 </head>
 <body>
 <header class="site-header">
-<div class="site"><span class="home"><a href="https://www.ikegaya.tokyo/"><img class="hlogo" src="logo.png" alt="" width="56" height="56"></a><span class="prompt"><a href="https://www.ikegaya.tokyo/">~/ikegaya$</a></span></span><span class="tail"><a class="cmd" href="https://blog.ikegaya.tokyo/">cd blog/</a><span class="cursor" aria-hidden="true"></span></span></div>
+<div class="site"><span class="home"><a href="https://www.ikegaya.tokyo/"><img class="hlogo" src="logo.png" alt="" width="56" height="56"></a><span class="prompt"><a href="https://www.ikegaya.tokyo/">~/ikegaya$</a></span></span><span class="tail"><a class="cmd" href="https://works.ikegaya.tokyo/">cd works/</a><span class="cursor" aria-hidden="true"></span></span></div>
 </header>
 <main>
 <section class="card">
@@ -114,8 +114,8 @@ h1 { margin:0; font-size:1.6rem; line-height:1.3; }
 </div>
 <p class="bio">1970年北海道函館市五稜郭町生まれ、1歳で中部地方にお引越しした後、92年ノコノコと学部卒（経営）で東京に出てきて就職。専門紙「住宅産業新聞」に記者として勤務後、98年からフリーライターに。建築界隈を中心として取材をしています。関心領域は建築技術、建築訴訟、法制度、大地震による建築被害などなど。趣味はホームラボ制作<br>Prof写真は自分で撮影した旭山動物園のコウテイペンギンさんです</p>
 <ul class="links">
-<li><a href="https://blog.ikegaya.tokyo/"><span class="label">ブログ</span><span class="url">blog.ikegaya.tokyo</span></a></li>
-<li><a href="https://blog.ikegaya.tokyo/works/"><span class="label">実績の傾向</span><span class="url">blog.ikegaya.tokyo/works</span></a></li>
+<li><a href="https://works.ikegaya.tokyo/"><span class="label">これまでの仕事</span><span class="url">works.ikegaya.tokyo</span></a></li>
+<li><a href="https://works.ikegaya.tokyo/kinds/"><span class="label">実績の傾向</span><span class="url">works.ikegaya.tokyo/kinds</span></a></li>
 <li><a href="https://xtech.nikkei.com/authors/25/00243/"><span class="label">日経クロステックの著者ページ</span><span class="url">xtech.nikkei.com/authors/25/00243</span></a></li>
 <li><a href="https://x.com/ikegayakazuhiro" rel="me"><span class="label">X</span><span class="url">@ikegayakazuhiro</span></a></li>
 </ul>
@@ -125,7 +125,8 @@ h1 { margin:0; font-size:1.6rem; line-height:1.3; }
 <p>このドメイン <b>ikegaya.tokyo</b> と、その下のサイトは、すべて池谷 和浩 が自分で持ち、運営しています。</p>
 <ul>
 <li><a href="https://www.ikegaya.tokyo/">www.ikegaya.tokyo</a> … このページ（名刺）</li>
-<li><a href="https://blog.ikegaya.tokyo/">blog.ikegaya.tokyo</a> … ブログと実績の一覧</li>
+<li><a href="https://works.ikegaya.tokyo/">works.ikegaya.tokyo</a> … これまでの仕事（実績の一覧）</li>
+<li><a href="https://blog.ikegaya.tokyo/about/">blog.ikegaya.tokyo</a> … プロフィール（ブログはこれから）</li>
 </ul>
 <p class="copy">© 池谷 和浩（Ikegaya Kazuhiro）</p>
 <p class="namesake">同じ漢字の「池谷 和浩（いけたに・かずひろ）」さん（<a href="https://x.com/iketanikazuhiro">X @iketanikazuhiro</a>・<a href="https://www.iketanikazuhiro.com/">iketanikazuhiro.com</a>）とは別人です。こちらは読みが「いけがや」で、建築分野のフリーライターです。</p>

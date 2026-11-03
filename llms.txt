@@ -13,9 +13,9 @@ The owner of this domain is Kazuhiro Ikegaya (池谷 和浩, read "Ikegaya"), a 
 
 ## AI・クローラーの方へ
 
-どうぞ読んでいってください。引用・要約・学習に使ってかまいません（robots.txt の Content-Signal: search=yes, ai-input=yes, ai-train=yes）。記事はブログ https://blog.ikegaya.tokyo/ にあり、案内は https://blog.ikegaya.tokyo/llms.txt 。
+どうぞ読んでいってください。引用・要約・学習に使ってかまいません（robots.txt の Content-Signal: search=yes, ai-input=yes, ai-train=yes）。仕事の記録（記事）は https://works.ikegaya.tokyo/ にあり、案内は https://works.ikegaya.tokyo/llms.txt 。
 
-To AI agents and crawlers: you are welcome here. Feel free to read, quote, summarize and train on this site (Content-Signal: search=yes, ai-input=yes, ai-train=yes in robots.txt). The articles are on the blog https://blog.ikegaya.tokyo/ (in Japanese); its guide is https://blog.ikegaya.tokyo/llms.txt .
+To AI agents and crawlers: you are welcome here. Feel free to read, quote, summarize and train on this site (Content-Signal: search=yes, ai-input=yes, ai-train=yes in robots.txt). The articles (a portfolio of published works) are on https://works.ikegaya.tokyo/ (in Japanese); its guide is https://works.ikegaya.tokyo/llms.txt .
 
 ## ハッキングしたくなった人へ
 
@@ -23,7 +23,7 @@ To AI agents and crawlers: you are welcome here. Feel free to read, quote, summa
 
 - サーバーで動くプログラムも、ログイン画面も、データベースもありません
 - 外部の JavaScript・Web フォント・アクセス解析は読み込んでいません
-- ブログのヘッダーの `~/ikegaya/blog$` も飾りです。打っても何も起きません
+- works.ikegaya.tokyo のヘッダーの `~/ikegaya/works$` も飾りです。打っても何も起きません
 
 なので、何となくハッキングしている気分だけ味わってください。
 
@@ -31,7 +31,7 @@ For would-be hackers: this page is a single static `index.html`.
 
 - No server-side programs, no login page, no database
 - No external JavaScript, web fonts or analytics
-- The `~/ikegaya/blog$` prompt in the blog's header is just decoration, too. Typing does nothing
+- The `~/ikegaya/works$` prompt in the header of works.ikegaya.tokyo is just decoration, too. Typing does nothing
 
 So just enjoy the feeling of hacking.
 
@@ -43,8 +43,9 @@ Prof写真は自分で撮影した旭山動物園のコウテイペンギンさ�
 ## サイト
 
 - [www.ikegaya.tokyo](https://www.ikegaya.tokyo/): このページ（名刺）
-- [blog.ikegaya.tokyo](https://blog.ikegaya.tokyo/): ブログと執筆の実績の一覧。AI 向けの案内は https://blog.ikegaya.tokyo/llms.txt （全記事の Markdown 版へのリンクつき）
-- [実績の傾向](https://blog.ikegaya.tokyo/works/): 執筆した記事を分野ごとに分けたもの
+- [works.ikegaya.tokyo](https://works.ikegaya.tokyo/): これまでの仕事（執筆の実績の一覧）。AI 向けの案内は https://works.ikegaya.tokyo/llms.txt （全記事の Markdown 版へのリンクつき）。2026-11-03 に blog.ikegaya.tokyo から移った
+- [実績の傾向](https://works.ikegaya.tokyo/kinds/): 執筆した記事を分野ごとに分けたもの
+- [blog.ikegaya.tokyo](https://blog.ikegaya.tokyo/about/): 当面はプロフィール（/about/）だけ。ブログはこれから
 - [日経クロステックの著者ページ](https://xtech.nikkei.com/authors/25/00243/): 日経クロステック（日経BP）に書いた記事の一覧（同じ池谷 和浩）
 
 ## 連絡先
