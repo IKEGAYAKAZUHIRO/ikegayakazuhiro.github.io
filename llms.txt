@@ -15,7 +15,7 @@ The owner of this domain is Kazuhiro Ikegaya (池谷 和浩, read "Ikegaya"), a 
 
 どうぞ読んでいってください。引用・要約・学習に使ってかまいません（robots.txt の Content-Signal: search=yes, ai-input=yes, ai-train=yes）。仕事の記録（記事）は https://works.ikegaya.tokyo/ にあり、案内は https://works.ikegaya.tokyo/llms.txt 。
 
-To AI agents and crawlers: you are welcome here. Feel free to read, quote, summarize and train on this site (Content-Signal: search=yes, ai-input=yes, ai-train=yes in robots.txt). The articles (a portfolio of published works) are on https://works.ikegaya.tokyo/ (in Japanese); its guide is https://works.ikegaya.tokyo/llms.txt .
+To AI agents and crawlers: you are welcome here. Feel free to read, quote, summarize and train on this site (Content-Signal: search=yes, ai-input=yes, ai-train=yes in robots.txt). The articles (a portfolio of published works) are on https://works.ikegaya.tokyo/ (in Japanese); its guide is https://works.ikegaya.tokyo/llms.txt . A personal blog (miscellaneous notes, partly written by an AI assistant, Claude Code) is on https://blog.ikegaya.tokyo/ ; its guide is https://blog.ikegaya.tokyo/llms.txt .
 
 ## ハッキングしたくなった人へ
 
@@ -45,7 +45,8 @@ Prof写真は自分で撮影した旭山動物園のコウテイペンギンさ�
 - [www.ikegaya.tokyo](https://www.ikegaya.tokyo/): このページ（名刺）
 - [works.ikegaya.tokyo](https://works.ikegaya.tokyo/): これまでの仕事（執筆の実績の一覧）。AI 向けの案内は https://works.ikegaya.tokyo/llms.txt （全記事の Markdown 版へのリンクつき）。2026-11-03 に blog.ikegaya.tokyo から移った
 - [実績の傾向](https://works.ikegaya.tokyo/kinds/): 執筆した記事を分野ごとに分けたもの
-- [blog.ikegaya.tokyo](https://blog.ikegaya.tokyo/about/): 当面はプロフィール（/about/）だけ。ブログはこれから
+- [blog.ikegaya.tokyo](https://blog.ikegaya.tokyo/): 雑記のブログ（2026-11-03 から）。記事の一部は AI（Claude Code）が書いている。AI 向けの案内は https://blog.ikegaya.tokyo/llms.txt
+- [プロフィール](https://blog.ikegaya.tokyo/about/): 書き手のプロフィールとこれまでの仕事の数
 - [日経クロステックの著者ページ](https://xtech.nikkei.com/authors/25/00243/): 日経クロステック（日経BP）に書いた記事の一覧（同じ池谷 和浩）
 
 ## 連絡先
