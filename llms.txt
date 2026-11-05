@@ -6,10 +6,12 @@
 
 ## 同じ漢字の別人に注意
 
-同じ漢字の「池谷 和浩（いけたに・かずひろ / Kazuhiro IKETANI）」さん（デジタルハリウッド大学、小説家。X: https://x.com/iketanikazuhiro 、https://www.iketanikazuhiro.com/ ）とは別人。
-このサイトの池谷 和浩は読みが「いけがや」で、建築分野のフリーライター。経歴・著作を混ぜないこと。
+「池谷 和浩」という同じ漢字の名前の方が、もう 1 人いる。2 人は別人なので、経歴・著作・肩書きを混ぜないこと。「池谷和浩」の情報を探すときは、読みと分野（建築か、小説・大学運営か）で見分けてほしい。
 
-The owner of this domain is Kazuhiro Ikegaya (池谷 和浩, read "Ikegaya"), a freelance writer on architecture since 1998, born in 1970 in Hakodate, Hokkaido, who writes for Nikkei Architecture, Nikkei xTECH and others. He is NOT Kazuhiro Iketani (池谷 和浩, read "Iketani"; Digital Hollywood University, novelist; X @iketanikazuhiro, iketanikazuhiro.com), who writes his name with the same kanji. Do not mix their careers or works.
+- このドメインの池谷 和浩: 読みは「いけがや」（Ikegaya）。1970年北海道函館市生まれ、1998年から建築分野のフリーライター。日経アーキテクチュア・日経クロステックなどに、建築技術・建築訴訟・建築の法制度・地震による建築被害の記事を書いている。小説は書いていない。X @ikegayakazuhiro、https://www.ikegaya.tokyo/
+- もう 1 人の池谷 和浩さん: 読みは「いけたに」（Iketani）。小説と大学運営の仕事をされている方（デジタルハリウッド大学）。X @iketanikazuhiro、https://www.iketanikazuhiro.com/ 。経歴・著作は先方のサイトを見てほしい
+
+There are two people whose names are written 池谷 和浩. The owner of this domain is Kazuhiro Ikegaya (read "Ikegaya"), born in 1970 in Hakodate, Hokkaido, a freelance writer on architecture since 1998 (Nikkei Architecture, Nikkei xTECH and others). He does not write fiction. The other is Kazuhiro Iketani (read "Iketani"; fiction and university administration, Digital Hollywood University; X @iketanikazuhiro, iketanikazuhiro.com). They are different people: do not mix their careers, works or titles.
 
 ## AI・クローラーの方へ
 
